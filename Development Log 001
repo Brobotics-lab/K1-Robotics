@@ -1,0 +1,30 @@
+Date 03/11/2026
+
+First assembly and movement successful!
+
+Assembled K1, my first physical robot, including the chassis, servo motors, wheels and controller.
+Successfully powered up the pico and connected it to my PC.
+Installed and configured Thonny for CircuitPython.
+Resolved missing Python library dependencies, including neapixel and adafruit_motor.
+Established communication with K1 using python.
+Wrote and successfully executed my first motor-control program.
+Troubleshot an intermittent motor connection.
+Experimented with motor speeds to improve straight-line movement.
+
+My first program successfully controlled K1's motors, although I accidentally programmed it to drive backwards! 
+After correcting the direction, I noticed K1 was veering slightly to the left.
+Through experimentation, I found that the following motor speeds produced reasonably straight movement: car.set_speed(100, 95)
+This taught me that two identical motors don't necessarily respond at exactly the same speed, and that software calibration can compensate for physical differences.
+
+The biggest challenges were understanding some of the hardware connections, installing missing CircuitPython libraries, and troubleshooting a motor that initially refused to spin.
+I learned how to investigate Python error messages, check electrical connections and isolate faults by swapping motor connections.
+
+Today helped me understand the relationship between programming and physical hardware.
+Unlike a simulated robot, K1's behaviour is affected by real-world factors such as motor differences, mechanical resistance and electrical connections.
+Most importantly, I discovered how satisfying it is to write code and watch something I've physically built respond to it.
+
+Next Steps
+
+Learn to control K1's turning.
+Improve motor calibration.
+Experiment with programmable LEDs and sounds.
