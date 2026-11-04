@@ -1,0 +1,33 @@
+Date: 04/11/2026
+
+Learning Movement and Basic Python Logic
+
+Today I continued experimenting with K1, focusing on understanding how Python can be used to control its movements.
+Using the ELECFREAKS booklet as a guide, I learned how to use the Pico's A and B buttons to control K1's motors.
+I experimented with and, if and elif conditions, discovering that the order in which conditions are checked matters. 
+Initially, pressing both buttons didn't produce the intended result because an earlier condition was being triggered first. After rearranging the conditions, I successfully programmed K1 to respond correctly.
+
+I then experimented with automated movement using while True loops and sleep() commands.
+By controlling each motor independently, I was able to make K1 turn on the spot. After experimenting with the timing, I successfully programmed K1 to drive around the floor in a repeating pattern.
+
+What I Learned
+
+How if and elif statements control program decisions.
+How to check multiple conditions using and.
+Why the order of conditions affects the result.
+How, while True creates a repeating loop.
+How sleep() controls the duration of movements.
+How changing the direction of individual motors allows K1 to turn.
+
+Reflection
+
+Today was an important step towards understanding how to program K1 rather than simply copying instructions.
+Seeing K1 perform a sequence of movements I'd programmed was incredibly satisfying. I'm beginning to understand how simple commands can be combined to produce more complicated behaviours.
+
+Next Steps
+
+Continue practising Python fundamentals.
+Improve K1's turning accuracy.
+Experiment with different movement patterns.
+Begin learning how to use K1's lights and sounds.
+Eventually introduce sensors to allow K1 to navigate independently.
